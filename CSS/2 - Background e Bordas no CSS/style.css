@@ -1,0 +1,17 @@
+h1 {
+  color: purple;
+  font-size: 50px;
+  background-color: rgba(128, 128, 128, 0.247);
+
+  border: 2px dashed green;
+}
+
+li {
+  color: green;
+}
+
+body {
+  background-image: url("https://images5.alphacoders.com/102/thumb-1920-1020666.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

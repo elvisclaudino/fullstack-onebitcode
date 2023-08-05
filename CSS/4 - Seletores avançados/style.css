@@ -1,0 +1,38 @@
+/* Seleciona todos 
+
+* {
+  border: 1px solid;
+
+}*/
+
+/* Descendência
+
+li a {
+  color: red;
+}
+
+*/
+
+/* Pai e filho */
+
+li > a {
+  color: red;
+}
+
+/* Adjacente */
+
+h1 + h4 {
+  border: 4px dashed;
+}
+
+/* Atributo */
+
+a[href="#"] {
+  color: violet;
+}
+
+/* Subclasses */
+
+li:nth-of-type(2) {
+  color: purple;
+}

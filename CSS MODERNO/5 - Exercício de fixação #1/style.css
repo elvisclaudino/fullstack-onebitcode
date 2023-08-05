@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 7vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  width: 40px;
+  margin-left: 25px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.navegacao {
+  display: flex;
+  gap: 10px;
+  margin-right: 25px;
+}
+
+.item {
+  border: 2px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.item:hover {
+  border-color: red;
+}

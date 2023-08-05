@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+  width: 100vw;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(41, 41, 41);
+  align-items: center;
+  padding: 40px;
+}
+
+.logo {
+  width: 260px;
+}
+
+.nav {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav:hover {
+  border-bottom: 2px solid black;
+}
+
+.titulo {
+  text-align: center;
+  padding: 20px;
+}
+
+.principal {
+  display: flex;
+}
+
+.imagens {
+  flex: 1 0 auto;
+  margin: 0 130px;
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-template-areas:
+    "item1 item2 item3"
+    "item4 item5 item6"
+    "item7 item8 item9";
+}
+
+.imagem {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.texto-imagem {
+  width: 400px;
+}
+
+.item1 {
+  grid-area: item1;
+}
+.item2 {
+  grid-area: item2;
+}
+.item3 {
+  grid-area: item3;
+}
+.item4 {
+  grid-area: item4;
+}
+.item5 {
+  grid-area: item5;
+}
+.item6 {
+  grid-area: item6;
+}
+.item7 {
+  grid-area: item7;
+}
+.item8 {
+  grid-area: item8;
+}
+.item9 {
+  grid-area: item9;
+}
+
+.extras {
+  text-align: center;
+  background-color: rgb(41, 41, 41);
+  padding: 20px 60px;
+}
+
+.imagem-extra {
+  width: 300px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.extras p {
+  margin-bottom: 30px;
+  color: white;
+}
+
+.rodape {
+  width: 100vw;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(41, 41, 41);
+  align-items: center;
+  padding: 40px;
+}
