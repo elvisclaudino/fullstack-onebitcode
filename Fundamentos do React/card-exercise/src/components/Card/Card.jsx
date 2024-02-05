@@ -1,4 +1,5 @@
 import startwars from "../../assets/poster-sw.jpg";
+import Button from "../Button/Index";
 import styles from "./styles.module.css";
 
 export default function Card() {
@@ -13,7 +14,7 @@ export default function Card() {
           mollitia quasi officiis beatae. Laudantium iure vitae eligendi officia
           beatae accusantium deserunt nisi explicabo re.
         </p>
-        <button>Comprar agora</button>
+        <Button />
       </div>
     </div>
   );

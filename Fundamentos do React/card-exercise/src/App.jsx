@@ -3,7 +3,8 @@ import Card from "./components/Card/card";
 function App() {
   return (
     <div className="app">
-      <Card></Card>
+      <h1>Exercicio 2</h1>
+      <Card />
     </div>
   );
 }
